@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $color-light;
+  background-color: black;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 40px;
+}
+.pages {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.pages li {
+  margin-right: 20px;
+
+}
+.songs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  list-style: none;
+  text-align: center;
+}
+.songs li {
+  margin-bottom: 10px;
+}
+ h3 {
+  text-align: center;
+  position: relative;
+  bottom: -70px;
+
+  font-size: 150px;
+}
+.subscribe {
+  background-image: url("../../images/subscribe.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.subscribe button {
+  font-size: 50px;
+  margin-left: auto;
+}
+.subscribe h4 {
+  font-size: 50px;
+}
+.subscribe img {
+margin-right: auto;
+}
+
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
